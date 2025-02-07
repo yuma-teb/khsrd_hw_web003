@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Web Homework 003</title>
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <nav>
+      <h3>Travel</h3>
+
+      <section>
+        <a href="#discover" class="nav-list"> Discover</a>
+        <a href="#pricing" class="nav-list"> Pricing </a>
+        <a href="#feedback" class="nav-list"> Feedback</a>
+      </section>
+
+      <a href="#contact-us" class="contact-us btn-filled-button">Contact us</a>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero flex" id="nav-bar">
+      <!-- leftness side of hero section -->
+      <div class="flex align-center">
+        <ul class="side flex column-reverse space-around">
+          <li>All</li>
+          <li title="style-li">Latest</li>
+          <li>Popular</li>
+        </ul>
+      </div>
+
+      <!-- hero seciton content -->
+      <div class="hero-content gap-2 width-1">
+        <!-- images post  -->
+        <div class="hero-images">
+          <!-- left two cards -->
+          <div class="images-column">
+            <article
+              class="width-1 pd-2 card-radius flex column gap-1 card-background"
+            >
+              <!-- card image -->
+              <img
+                class="profile"
+                src="../public/images/profile.jpeg"
+                alt="profile image"
+              />
+
+              <!-- user name and rating -->
+              <div class="flex space-between">
+                <h4>Arun Lita</h4>
+                <h4>4.5</h4>
+              </div>
+
+              <!-- location and star rating -->
+              <div class="flex space-between">
+                <p>Siem Reap</p>
+                <div class="five-star-rating">
+                  <img
+                    class="icon-width"
+                    src="./public/images/star.svg"
+                    alt="rating"
+                  />
+                  <img
+                    class="icon-width"
+                    src="./public/images/star.svg"
+                    alt="rating"
+                  />
+                  <img
+                    class="icon-width"
+                    src="./public/images/star.svg"
+                    alt="rating"
+                  />
+                  <img
+                    class="icon-width"
+                    src="./public/images/star.svg"
+                    alt="rating"
+                  />
+                  <img
+                    class="icon-width"
+                    src="./public/images/star.svg"
+                    alt="rating"
+                  />
+                  <img
+                    class="icon-width"
+                    src="./public/images/half-star.svg"
+                    alt="rating"
+                  />
+                </div>
+              </div>
+            </article>
+
+            <section
+              class="container-card grow-1 width-0-8 card-radius padding-card flex column-reverse background-cover background-shadow"
+              id="bc-2"
+            >
+              <div
+                class="content-card card-background opacity-8 flex column space-between padding-card card-radius"
+              >
+                <p>Sunset View</p>
+
+                <div class="flex space-between">
+                  <div class="flex gap-1">
+                    <img
+                      class="icon-width"
+                      src="./public/images/location-svg.svg"
+                      alt=""
+                    />
+                    <p>USA</p>
+                  </div>
+
+                  <div class="flex gap-1">
+                    <img
+                      class="icon-width"
+                      src="./public/images/star.svg"
+                      alt="star"
+                    />
+                    <p>(5.0)</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- right two cards -->
+          <div class="images-column">
+            <!-- destination card -->
+            <article
+              class="container-card grow-1 width-0-6 card-radius background-cover background-shadow flex column-reverse"
+              id="bc-1"
+            >
+              <div
+                class="content-card card-background opacity-8 flex column space-between padding-card card-radius"
+              >
+                <p>Sunset View</p>
+
+                <div class="flex space-between">
+                  <div class="flex gap-1">
+                    <img
+                      class="icon-width"
+                      src="./public/images/location-svg.svg"
+                      alt=""
+                    />
+                    <p>Cambodia</p>
+                  </div>
+
+                  <div class="flex gap-1">
+                    <img
+                      class="icon-width"
+                      src="./public/images/star.svg"
+                      alt="star"
+                    />
+                    <p>(5.0)</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- more destination card -->
+            <section
+              class="flex width-0-8 gap-1 card-background high-1-5 card-radius pd-2"
+            >
+              <!-- left image -->
+              <img
+                class="width-0-3 card-radius background-shadow"
+                src="../public/images/beach-3.jpeg"
+                alt="hero card images"
+              />
+
+              <!-- layer images and content -->
+              <div class="flex column space-between gap-1">
+                <p class="text-xs">Let's have a cup of coffee together</p>
+
+                <!-- image layer -->
+                <div class="flex layer-container">
+                  <img
+                    class="width-0-8 background-cover card-radius layer-image background-shadow card-border"
+                    src="../public/images/beach-4.jpeg"
+                    alt=""
+                  />
+                  <img
+                    class="width-0-8 background-cover card-radius layer-image left-1 z-2 background-shadow card-border"
+                    src="../public/images/beach-5.jpeg"
+                    alt=""
+                  />
+                  <img
+                    class="width-0-5 background-cover card-radius layer-image left-2 z-3 background-shadow card-border"
+                    src="../public/images/beach-6.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- hero text -->
+        <section class="content flex column gap-5 pd-3">
+          <h1 class="title" title="life">
+            Life is short and the world is wide.
+          </h1>
+          <div class="flex column gap-1">
+            <p class="text-md">To get the best of your adventure,</p>
+            <p class="text-md">you just need to leave and</p>
+            <p class="text-md">go where you like.</p>
+          </div>
+
+          <!-- Call-to-action button -->
+          <div class="flex gap-2">
+            <button class="btn-filled-button">Explore More</button>
+            <button class="discover-button">
+              <span> <img src="./public/images/discover.svg" alt="" /> </span>
+            </button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- explor more section -->
+    <section class="explore-section flex gap-5">
+      <!-- left section -->
+      <div class="width-0-5 flex column justify-center gap-5">
+        <h1 class="title">Explore wonderful places around the world with us</h1>
+        <div class="flex column gap-2">
+          <div class="flex column gap-1">
+            <p class="text-md">
+              Give yourself a chance to get out of your comfort zone,
+            </p>
+            <p class="text-md">
+              you will be able to see how wide the world is and
+            </p>
+            <p class="text-md">how beautiful it is.</p>
+          </div>
+
+          <div>
+            <button class="btn-outlined-button">
+              Explore More
+              <img class="block icon" src="./public/images/next.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex space-around width-0-5">
+        <img
+          class="section-two-image background-shadow"
+          src="../public/images/beach-4.jpeg"
+          alt="section-2-img-1"
+        />
+        <img
+          class="section-two-image background-shadow"
+          src="../public/images/beach-5.jpeg"
+          alt="section-2-img-2"
+        />
+        <img
+          class="section-two-image background-shadow"
+          src="../public/images/beach-6.jpeg"
+          alt="section-2-img-3"
+        />
+      </div>
+    </section>
+
+    <!-- last section -->
+    <section class="flex column gap-5">
+      <!-- first row title -->
+      <div class="flex column gap-2 align-center">
+        <h1 class="text-lg">Travel to make sweet memories</h1>
+        <p class="text-md">Find trips that fits a flexible lifestyle</p>
+      </div>
+
+      <!-- second row -->
+      <div class="flex width-1 space-evenly mt-2">
+        <!-- left section -->
+        <div class="flex column-reverse gap-2">
+          <!-- first content -->
+          <div class="section-3-content">
+            <div class="flex column gap-1">
+              <div>
+                <div class="number-content">01</div>
+              </div>
+              <h3>Reignite these travel tastebuds</h3>
+            </div>
+
+            <!--content  -->
+            <div>
+              <p class="text-md">
+                This are infinite reasons to love travel one of them
+              </p>
+              <p class="text-md">being the food, glorious food</p>
+            </div>
+          </div>
+
+          <!-- second content -->
+          <div class="section-3-content">
+            <div class="flex column gap-1">
+              <div class="number-content">02</div>
+              <h3>Get back to nature by travel</h3>
+            </div>
+
+            <!--content  -->
+            <div>
+              <p class="text-md">
+                The world is play ground and you finally can explore
+              </p>
+              <p class="text-md">Mother nature irrestible call to adventure.</p>
+            </div>
+          </div>
+
+          <!-- third content -->
+          <div class="section-3-content">
+            <div class="flex column gap-1">
+              <div class="number-content">03</div>
+              <h3>Find trip that fits your freedom</h3>
+            </div>
+
+            <!--content  -->
+            <div>
+              <p class="text-md">
+                Exploring the world means tasting its traditions
+              </p>
+              <p class="text-md">
+                India or enjoying tapas in Spain, every meal is an adventure.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- right section -->
+        <div class="flex justify-center width-0-5">
+          <div id="last-image">
+            <!--  1st card favorite -->
+            <div title="first-card" class="card-favorite">
+              <img
+                class="profile"
+                src="./public/images/profile.jpeg"
+                alt="profile image"
+              />
+              <div class="favorite-content">
+                <p>Teb Yuma</p>
+                <div>
+                  <img class="mt-0-5" src="./public/images/heart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!--  2nd card favorite -->
+            <div title="second-card" class="card-favorite">
+              <img
+                class="profile"
+                src="./public/images/gojo.jpeg"
+                alt="profile image"
+              />
+              <div class="favorite-content">
+                <p>Lapin</p>
+                <img class="mt-0-5" src="./public/images/heart.svg" alt="" />
+              </div>
+            </div>
+
+            <!-- 3rd card favorite -->
+            <div title="third-card" class="card-favorite">
+              <img
+                class="profile"
+                src="./public/images/YUJIIIII.jpeg"
+                alt="profile image"
+              />
+              <div class="favorite-content">
+                <p>Sovattey</p>
+                <div>
+                  <img class="mt-0-5" src="./public/images/heart.svg" alt="" />
+                  <img class="mt-0-5" src="./public/images/heart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#nav-bar">
+      <button title="stick-button" class="discover-button">
+        <span> <img src="./public/images/arrow-up.svg" alt="" /> </span>
+      </button>
+    </a>
+
+    <!-- footer -->
+    <footer>
+      <p>@Copyright 2025 | KHSR Web Team</p>
+    </footer>
+  </body>
+</html>
