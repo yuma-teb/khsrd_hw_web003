@@ -305,7 +305,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 32px;
+  padding: 16px 32px;
   opacity: 0.8;
   position: fixed;
   top: 0;
